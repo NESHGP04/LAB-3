@@ -1,0 +1,15 @@
+id_producto,nombre,cantidad_disponible,cantidad_vendidos,estado,precio,categoria,ml,tipo,gramos,sabor,tamaño,topping,empaque
+12345,Pepsi,20,15,disponible,12.5,bebida,237,natural,,,,,
+23456,Cola,15,10,disponible,13,bebida,237,natural,,,,,
+34567,Vino,10,5,disponible,89,bebida,750,con licor,,,,,
+45678,Gatorade,20,5,disponible,25,bebida,600,energético,,,,,
+56789,BarbInd,7,3,disponible,8.5,snack,,,76,barbacoa,familiar,,
+67890,BarbFam,4,4,disponible,15,snack,,,155,barbacoa,individual,,
+10372,PicanteInd,2,6,disponible,8.5,snack,,,76,picante,familiar,,
+27384,PicanteFam,3,5,disponible,15,snack,,,155,picante,individual,,
+39284,NatInd,6,2,disponible,8.5,snack,,,76,natural,familiar,,
+47293,NatFam,1,7,disponible,15,snack,,,155,natural,individual,,
+56284,ToppingDocena,2,3,disponible,15,postre,,,,,,con,docena
+61094,ToppingMedia,3,4,disponible,7,postre,,,,,,con,media docena
+72943,SinToppingDocena,3,2,disponible,13,postre,,,,,,sin,docena
+82340,SinToppingMedia,7,1,disponible,5,postre,,,,,,sin,media docena
