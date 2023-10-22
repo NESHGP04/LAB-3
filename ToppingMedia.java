@@ -21,4 +21,8 @@ public class ToppingMedia extends Postre implements Decoracion, Empaque {
     public void media(){
         this.deco = "Media docena";
     }
+
+    public float getPrecio(){
+        return precio;
+    }
 } 

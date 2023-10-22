@@ -16,14 +16,22 @@ public class Pepsi extends Bebida implements Tipo{
     }
     @Override
     public void electrico(){
-        this.tipo = null;
+        this.tipo = "";
     }
     @Override
     public void licor(){
-        this.tipo = null;
+        this.tipo = "";
     }
     @Override
     public void agua(){
-        this.tipo = null;
+        this.tipo = "";
+    }
+
+    public float getPrecio(){
+        return precio;
+    }
+
+    public String getNombre(){
+        return nombre;
     }
 }

@@ -6,8 +6,8 @@
 public class Bebida extends Producto {
 
     //Definición de variables
-    float ml;
-    String tipo;
+    protected float ml;
+    protected String tipo;
 
     public Bebida(String id, String nombre, int disponible, int vendidos, boolean estado, float precio, float ml, String categoria){
         super(id, nombre, disponible, vendidos, estado, precio);
@@ -15,4 +15,7 @@ public class Bebida extends Producto {
         this.categoria = "Bebida";
     }
 
+    public String getNombre(){
+        return nombre;
+    }
 }

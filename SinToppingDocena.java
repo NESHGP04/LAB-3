@@ -21,4 +21,8 @@ public class SinToppingDocena extends Postre implements Decoracion, Empaque {
     public void media(){
         this.deco = null;
     }
+
+    public float getPrecio(){
+        return precio;
+    }
 }    

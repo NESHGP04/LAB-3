@@ -26,4 +26,8 @@ public class Vino extends Bebida implements Tipo{
     public void agua(){
         this.tipo = null;
     }
+
+    public float getPrecio(){
+        return precio;
+    }
 }

@@ -25,4 +25,8 @@ public class BarbInd extends Snack implements Sabor, Size {
     public void familiar() {
         this.sabor = null;
     }
+
+    public float getPrecio(){
+        return precio;
+    }
 }

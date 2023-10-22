@@ -5,8 +5,8 @@
 
 public class Postre extends Producto {
     //Definición de variables
-    String deco, empaque;
-    float comision;
+    protected String deco, empaque;
+    protected float comision;
 
     //Constructor
     public Postre(String id, String nombre, int disponible, int vendidos, boolean estado, float precio, String categoria){

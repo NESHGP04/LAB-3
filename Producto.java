@@ -25,5 +25,11 @@ public abstract class Producto {
         return this.nombre + " con ID: " + this.id + "\nQ" + this.precio + "\nDisponibles: " + this.disponible + "\nVendidos:" + this.vendidos;
     }
 
+    public void setVentas(int vendidos, float precio){
+        System.out.println("Las ventas de Bebidas son: " + (this.vendidos*this.precio));
+    }
 
+    public String getNombre(){
+        return nombre;
+    }
 }

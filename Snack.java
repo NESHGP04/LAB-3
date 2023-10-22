@@ -6,9 +6,9 @@
 public class Snack extends Producto {
     
     //Definición de variables
-    float gr;
-    String sabor;
-    String size;
+    protected float gr;
+    protected String sabor;
+    protected String size;
 
     //Constructor
     public Snack(String id, String nombre, int disponible, int vendidos, boolean estado, float precio, float gr, String categoria){
@@ -16,6 +16,4 @@ public class Snack extends Producto {
         this.gr = gr;
         this.categoria = "Snack"; 
     }
-
-    //Métodos para sabores y tamaño de los snacks
 }

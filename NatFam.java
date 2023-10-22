@@ -25,4 +25,8 @@ public class NatFam extends Snack implements Sabor, Size {
     public void familiar() {
         this.sabor = "Familiar";
     }
+
+    public float getPrecio(){
+        return precio;
+    }
 }
